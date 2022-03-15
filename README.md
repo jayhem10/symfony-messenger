@@ -1,8 +1,9 @@
+<h1 align="center">SYMFONY-MESSENGER</h1>
+
 <p align="center"><a href="https://symfony.com" target="_blank">
     <img src="https://www.wanadev.fr/uploads/documents/cover-messenger-symfony.png">
 </a></p>
 
-Symfony-Messenger
 
 Description
 ------------
