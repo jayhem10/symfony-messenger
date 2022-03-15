@@ -17,6 +17,8 @@ Installation
 * Clone the project, open the folder and run "composer install" in terminal.
 * Run "npm install"
 * Run "npm run build"
+* Create the database : "php bin/console doctrine:database:create"
+* Create tables : "php bin/console d:s:u -f"
 * Run "php -S 127.0.0.1:8000 -t public" in terminal 
 * Follow this url : http://127.0.0.1:8000/
 
