@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PageController!
+{% endblock %}
+
+{% block body %}
+
+	<div class="container">
+		{% for message in app.flashes('success') %}
+			<div class="alert alert-success">
+				{{ message }}
+			</div>
+		{% endfor %}
+		<h1 class="text-center mt-3">Envoi de notification</h1>
+
+		{{form(form)}}
+
+			<H1>Tâches échouées</H1>
+			<ul>
+				{% for job in jobs %}
+					{# {{dump(job)}} #}
+					<h3>{{job.title}}</h3>
+					<pre>{{job.trace}}</pre>
+					<form action="{{ path('delete', {id : job.id }) }}" method="post">
+						<input type="hidden" name="_method" value="DELETE">
+						<button class="btn btn-danger">Supprimer</button>
+					</form>
+					<form action="{{ path('retry', {id : job.id }) }}" method="post">
+						<button class="btn btn-info">Renvoyer</button>
+					</form>
+				{% endfor %}
+			</ul>
+
+		</div>
+	{% endblock %}
