@@ -1,32 +1,35 @@
 <p align="center"><a href="https://symfony.com" target="_blank">
-    <img src="https://symfony.com/logos/symfony_black_02.svg">
+    <img src="https://www.wanadev.fr/uploads/documents/cover-messenger-symfony.png">
 </a></p>
 
-[Symfony][1] is a **PHP framework** for web and console applications and a set
-of reusable **PHP components**. Symfony is used by thousands of web
-applications and most of the [popular PHP projects][2].
+Symfony-Messenger
+
+Description
+------------
+
+This is a small project to try symfony-messenger.
+It build with Webpack Encore.
 
 Installation
 ------------
 
-* [Install Symfony][4] with Composer (see [requirements details][3]).
-* Symfony follows the [semantic versioning][5] strictly, publishes "Long Term
-  Support" (LTS) versions and has a [release process][6] that is predictable and
-  business-friendly.
+* Clone the project and run "composer install" in terminal.
+* Run "php -S 127.0.0.1:8000 -t public" in terminal 
+* Run "npm install"
+* Follow this url : http://127.0.0.1:8000/
 
 
 Documentation
 -------------
+* [Symfony Documentation](https://symfony.com/doc/current/components/messenger.html) - Symfony documentation.
+* [Tutorial 1](https://www.youtube.com/watch?v=0BWU-liZIU4) - Tutorial by Grafikart.
+* [tutorial 2 - part 1](https://www.youtube.com/watch?v=p6hlTWyDRmE) - Tutorial by Nouvelle techno.
+* [tutorial 2 - part 2](https://www.youtube.com/watch?v=X8eNdUkLA-0) - Tutorial by Nouvelle techno.
+* 
 
 
 
-Community
----------
 
-* [Join the Symfony Community][11] and meet other members at the [Symfony events][12].
-* [Get Symfony support][13] on Stack Overflow, Slack, IRC, etc.
-* Follow us on [GitHub][14], [Twitter][15] and [Facebook][16].
-* Read our [Code of Conduct][24] and meet the [CARE Team][25].
 
 
 
