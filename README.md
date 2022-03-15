@@ -24,7 +24,9 @@ Documentation
 -------------
 
 Some commands to try messenger :
-
+* Send messages : "php bin/console messenger:consume async -vv"
+* Stop sending messages : "php bin/console messenger:stop-workers"
+* Resend messages : "php bin/console messenger:failed:retry" and run "send messages command"
 
 
 Documentation
