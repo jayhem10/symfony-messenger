@@ -22,7 +22,7 @@ Installation
 * Run "php -S 127.0.0.1:8000 -t public" in terminal 
 * Follow this url : http://127.0.0.1:8000/
 
-Documentation
+Informations complémentaires
 -------------
 
 Some commands to try messenger :
