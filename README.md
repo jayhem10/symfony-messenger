@@ -23,9 +23,9 @@ Documentation
 -------------
 * [Symfony Documentation](https://symfony.com/doc/current/components/messenger.html) - Symfony documentation.
 * [Tutorial 1](https://www.youtube.com/watch?v=0BWU-liZIU4) - Tutorial by Grafikart.
-* [tutorial 2 - part 1](https://www.youtube.com/watch?v=p6hlTWyDRmE) - Tutorial by Nouvelle techno.
-* [tutorial 2 - part 2](https://www.youtube.com/watch?v=X8eNdUkLA-0) - Tutorial by Nouvelle techno.
-* 
+* [Tutorial 2 - part 1](https://www.youtube.com/watch?v=p6hlTWyDRmE) - Tutorial by Nouvelle techno.
+* [Tutorial 2 - part 2](https://www.youtube.com/watch?v=X8eNdUkLA-0) - Tutorial by Nouvelle techno.
+
 
 
 
