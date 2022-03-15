@@ -13,7 +13,7 @@ It build with Webpack Encore.
 Installation
 ------------
 
-* Clone the project and run "composer install" in terminal.
+* Clone the project, open the folder and run "composer install" in terminal.
 * Run "php -S 127.0.0.1:8000 -t public" in terminal 
 * Run "npm install"
 * Follow this url : http://127.0.0.1:8000/
